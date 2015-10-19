@@ -1,0 +1,218 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   'node-curl' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/package.json
+5 warn package.json blakeolsen@ No repository field.
+6 warn package.json blakeolsen@ No license field.
+7 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/commander/package.json
+8 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/handle/package.json
+9 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/lodash/package.json
+10 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/math/package.json
+11 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/request/package.json
+12 verbose installManyTop reading scoped package data from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/text-table/package.json
+13 info package.json math@0.0.3 No README data
+14 info package.json math@0.0.3 homepage field must start with a protocol.
+15 info package.json math@0.0.3 No license field.
+16 verbose readDependencies loading dependencies from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/package.json
+17 silly cache add args [ 'node-curl', null ]
+18 verbose cache add spec node-curl
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'node-curl',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'node-curl',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 silly addNamed node-curl@*
+21 verbose addNamed "*" is a valid semver range for node-curl
+22 silly addNameRange { name: 'node-curl', range: '*', hasData: false }
+23 silly mapToRegistry name node-curl
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/node-curl
+27 verbose addNameRange registry:https://registry.npmjs.org/node-curl not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/node-curl
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 7:39:07 PM
+31 verbose request id d63f833438f9fafd
+32 verbose etag "DI2BNCZY7833SSCCYRG0ZUNYS"
+33 http request GET https://registry.npmjs.org/node-curl
+34 http 304 https://registry.npmjs.org/node-curl
+35 verbose headers { date: 'Sun, 18 Oct 2015 23:39:07 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   'cache-control': 'max-age=60',
+35 verbose headers   etag: '"DI2BNCZY7833SSCCYRG0ZUNYS"',
+35 verbose headers   age: '0',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-jfk1026-JFK',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1445211547.257341,VS0,VE18',
+35 verbose headers   vary: 'Accept' }
+36 silly get cb [ 304,
+36 silly get   { date: 'Sun, 18 Oct 2015 23:39:07 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     'cache-control': 'max-age=60',
+36 silly get     etag: '"DI2BNCZY7833SSCCYRG0ZUNYS"',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-jfk1026-JFK',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1445211547.257341,VS0,VE18',
+36 silly get     vary: 'Accept' } ]
+37 verbose etag https://registry.npmjs.org/node-curl from cache
+38 verbose get saving node-curl to /Users/Blake/.npm/registry.npmjs.org/node-curl/.cache.json
+39 silly addNameRange number 2 { name: 'node-curl', range: '*', hasData: true }
+40 silly addNameRange versions [ 'node-curl',
+40 silly addNameRange   [ '0.1.0',
+40 silly addNameRange     '0.1.1',
+40 silly addNameRange     '0.1.2',
+40 silly addNameRange     '0.1.3',
+40 silly addNameRange     '0.1.4',
+40 silly addNameRange     '0.1.5',
+40 silly addNameRange     '0.1.6',
+40 silly addNameRange     '0.1.7',
+40 silly addNameRange     '0.1.8',
+40 silly addNameRange     '0.2.0',
+40 silly addNameRange     '0.2.1',
+40 silly addNameRange     '0.2.2',
+40 silly addNameRange     '0.2.3',
+40 silly addNameRange     '0.3.0',
+40 silly addNameRange     '0.3.1',
+40 silly addNameRange     '0.3.3' ] ]
+41 silly addNamed node-curl@0.3.3
+42 verbose addNamed "0.3.3" is a plain semver version for node-curl
+43 silly cache afterAdd node-curl@0.3.3
+44 verbose afterAdd /Users/Blake/.npm/node-curl/0.3.3/package/package.json not in flight; writing
+45 verbose afterAdd /Users/Blake/.npm/node-curl/0.3.3/package/package.json written
+46 silly install resolved [ { name: 'node-curl',
+46 silly install resolved     version: '0.3.3',
+46 silly install resolved     author: { name: 'Jiang Miao', email: 'jiangfriend@gmail.com' },
+46 silly install resolved     description: 'node wrapper for multi curl, fully implemented.',
+46 silly install resolved     keywords: [ 'node-curl', 'curl', 'multi-curl', 'mcurl' ],
+46 silly install resolved     homepage: 'http://github.com/jiangmiao/node-curl',
+46 silly install resolved     repository: { type: 'git', url: 'git://github.com/jiangmiao/node-curl.git' },
+46 silly install resolved     main: './lib',
+46 silly install resolved     scripts: { install: 'sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)' },
+46 silly install resolved     engines: { node: '>= 0.6.0' },
+46 silly install resolved     bugs: { url: 'https://github.com/jiangmiao/node-curl/issues' },
+46 silly install resolved     _id: 'node-curl@0.3.3',
+46 silly install resolved     _shasum: '71274370774c2298b860307a9e45877701638735',
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz',
+46 silly install resolved     _from: 'node-curl@*',
+46 silly install resolved     _npmVersion: '1.4.23',
+46 silly install resolved     _npmUser: { name: 'jiangmiao', email: 'jiangfriend@gmail.com' },
+46 silly install resolved     maintainers: [ [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: '71274370774c2298b860307a9e45877701638735',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/node-curl/-/node-curl-0.3.3.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     readme: 'ERROR: No README data found!' } ]
+47 info install node-curl@0.3.3 into /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises
+48 info installOne node-curl@0.3.3
+49 verbose installOne of node-curl to /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises not in flight; installing
+50 verbose lock using /Users/Blake/.npm/_locks/node-curl-0d31c68f54ea2e55.lock for /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+51 silly install write writing node-curl 0.3.3 to /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+52 verbose unbuild node_modules/node-curl
+53 silly gentlyRm /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl is being purged from base /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises
+54 verbose gentlyRm don't care about contents; nuking /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+55 verbose tar unpack /Users/Blake/.npm/node-curl/0.3.3/package.tgz
+56 verbose tar unpacking to /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+57 silly gentlyRm /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl is being purged
+58 verbose gentlyRm don't care about contents; nuking /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry .npmignore
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm extractEntry index.js
+64 silly gunzTarPerm extractEntry binding.gyp
+65 silly gunzTarPerm extractEntry examples/curl.js
+66 silly gunzTarPerm extractEntry examples/low-level.js
+67 silly gunzTarPerm extractEntry examples/post-multi-part.js
+68 silly gunzTarPerm extractEntry examples/test.js
+69 silly gunzTarPerm extractEntry examples/low-level-pressure.js
+70 silly gunzTarPerm extractEntry examples/test-stream.js
+71 silly gunzTarPerm extractEntry examples/pressure-multi-post.js
+72 silly gunzTarPerm extractEntry examples/test-get-info.js
+73 silly gunzTarPerm extractEntry examples/test-errors.js
+74 silly gunzTarPerm extractEntry examples/quick-start.js
+75 silly gunzTarPerm extractEntry examples/post.js
+76 silly gunzTarPerm extractEntry examples/pressure.js
+77 silly gunzTarPerm extractEntry examples/pressure.toffee
+78 silly gunzTarPerm extractEntry examples/curl.toffee
+79 silly gunzTarPerm extractEntry examples/test-errors.toffee
+80 silly gunzTarPerm extractEntry examples/pressure-multi-post.toffee
+81 silly gunzTarPerm extractEntry examples/post.toffee
+82 silly gunzTarPerm extractEntry examples/test-stream.toffee
+83 silly gunzTarPerm extractEntry examples/post-multi-part.toffee
+84 silly gunzTarPerm extractEntry examples/test.toffee
+85 silly gunzTarPerm extractEntry .travis.yml
+86 silly gunzTarPerm extractEntry index.toffee
+87 silly gunzTarPerm extractEntry lib/Curl.js
+88 silly gunzTarPerm extractEntry lib/CurlBuilder.js
+89 silly gunzTarPerm extractEntry lib/Curl.toffee
+90 silly gunzTarPerm extractEntry lib/CurlBuilder.toffee
+91 silly gunzTarPerm extractEntry LICENSE-MIT
+92 silly gunzTarPerm extractEntry src/generate_curl_options_list.sh
+93 silly gunzTarPerm extractEntry src/node-curl.cc
+94 silly gunzTarPerm extractEntry src/node-curl.h
+95 silly gunzTarPerm extractEntry wscript
+96 verbose write writing to /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl/package.json
+97 info preinstall node-curl@0.3.3
+98 verbose readDependencies loading dependencies from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl/package.json
+99 verbose readDependencies loading dependencies from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl/package.json
+100 silly install resolved []
+101 verbose about to build /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+102 info build /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+103 info linkStuff node-curl@0.3.3
+104 silly linkStuff node-curl@0.3.3 has /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules as its parent node_modules
+105 verbose linkBins node-curl@0.3.3
+106 verbose linkMans node-curl@0.3.3
+107 verbose rebuildBundles node-curl@0.3.3
+108 info install node-curl@0.3.3
+109 verbose unsafe-perm in lifecycle true
+110 info node-curl@0.3.3 Failed to exec install script
+111 verbose unlock done using /Users/Blake/.npm/_locks/node-curl-0d31c68f54ea2e55.lock for /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+112 verbose stack Error: node-curl@0.3.3 install: `sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)`
+112 verbose stack spawn ENOENT
+112 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+112 verbose stack     at emitTwo (events.js:87:13)
+112 verbose stack     at ChildProcess.emit (events.js:172:7)
+112 verbose stack     at maybeClose (internal/child_process.js:818:16)
+112 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+113 verbose pkgid node-curl@0.3.3
+114 verbose cwd /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises
+115 error Darwin 14.5.0
+116 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "--save" "node-curl"
+117 error node v4.2.1
+118 error npm  v2.14.7
+119 error file sh
+120 error code ELIFECYCLE
+121 error errno ENOENT
+122 error syscall spawn
+123 error node-curl@0.3.3 install: `sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)`
+123 error spawn ENOENT
+124 error Failed at the node-curl@0.3.3 install script 'sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)'.
+124 error This is most likely a problem with the node-curl package,
+124 error not with npm itself.
+124 error Tell the author that this fails on your system:
+124 error     sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)
+124 error You can get their info via:
+124 error     npm owner ls node-curl
+124 error There is likely additional logging output above.
+125 verbose exit [ 1, true ]
+126 verbose unbuild node_modules/node-curl
+127 info preuninstall node-curl@0.3.3
+128 info uninstall node-curl@0.3.3
+129 verbose unbuild rmStuff node-curl@0.3.3 from /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules
+130 info postuninstall node-curl@0.3.3
+131 silly gentlyRm /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl is being purged from base /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises
+132 verbose gentlyRm don't care about contents; nuking /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+133 silly vacuum-fs purging /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules/node-curl
+134 silly vacuum-fs quitting because other entries in /Users/Blake/Documents/Carnegie Mellon/Junior Year/Internships/code_exercises/node_modules

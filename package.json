@@ -1,0 +1,9 @@
+{
+  "name" : "top10contributions",
+  "version" : "0.0.1",
+  "description": "Find the top 10 contributors of a Github Project.",
+  "main": "top_10_contributors.js",
+  "dependencies": {
+    "handle": "^1.0.0"
+  }
+}
